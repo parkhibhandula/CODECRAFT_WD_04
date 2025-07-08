@@ -12,7 +12,6 @@ html, body{
 }
 .navbar{
     font-size:large;
-    margin: 0% 5% 0 5%;
     background-color: black !important;
 }
 .navbar-brand{
@@ -26,6 +25,14 @@ html, body{
 .nav-link{
     margin-left: 10%;
 }
+/* .logo{
+    background-image: url(/images/image.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    mix-blend-mode:lighten;
+height:5%;
+width: 20%;
+} */
 #contact{
     background-color: #55e6a5;
     color: white;
@@ -36,3 +43,70 @@ html, body{
 .links i{
     margin-left: 2%;
 }
+
+.skills, .about, .contact,.project{
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.skills h2:hover, .about h2:hover, .contact h2:hover, .project h2:hover{
+    background-color: #55e6a5;
+    color: white;
+}
+.skills h2, .about h2, .contact h2, .project h2{
+    padding: 1%;
+    border-radius: 20px;
+    font-weight: bolder;
+    color:#55e6a5;
+    border: 2px solid #55e6a5;
+}
+.skill{
+    margin:5%;
+}
+.aboutme .container .col-md-5{
+    /* border: 2px solid #55e6a5; */
+    box-shadow: -4px -5px 11px 0px #55e6a5;
+    margin: 5% 0% 0% 5%;
+    padding: 20px;
+}
+.aboutme .container .col-md-5:hover{
+    box-shadow: 0px -1px 17px 4px #55e6a5;
+}
+.contactme{
+   margin-left: 2%;
+}
+.contactme h3{
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #55e6a5;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #4bd095;
+}
+

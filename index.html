@@ -9,7 +9,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>portfolio</title>
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -18,7 +20,7 @@
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <div class="logo"><a class="navbar-brand" href="#">Parkhi</a>
+            <div class="logo"><a class="navbar-brand" href="#">PARKHI</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -27,11 +29,14 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" style="margin-left: 30%;">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Skills</a>
-                    <a class="nav-link" href="#">Resume</a>
-                    <button type="button" id="contact" class="btn" style="margin-left: 10%">Contact</button>
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    <a class="nav-link" href="#aboutme">About</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#skill-contain">Skills</a>
+                    <a class="nav-link" href="#contactme">Contact</a>
+                    <button type="button" id="contact" class="btn" style="margin-left: 10%"><a
+                            href="/images/resume_parkhi.pdf" download
+                            style="color: white; text-decoration:none;">Resume</a></button>
                 </div>
             </div>
         </div>
@@ -39,18 +44,208 @@
     <!--MAIN CONTENT-->
     <div class="container">
         <div class="row">
-            <div class="col-lg-6" id="intro">
+            <div class="col-md-6" id="intro">
                 <h1>Hi, I'm Parkhi <br>Full Stack Developer Merging Code With Creativity</h1>
                 <div class="links">
-                    <a href="mailto:parkhibhandula@gmail.com"><i class="fa-solid fa-square-envelope fa-2x" style="color: #55e6a5;"></i></a>
-                    <a href="https://www.linkedin.com/in/parkhi-bhandula-59642428b/"><i class="fa-brands fa-linkedin fa-2x" style="color: #55e6a5;"></i></a>
-                    <a href="https://github.com/parkhibhandula"><i class="fa-brands fa-github fa-2x" style="color: #55e6a5;"></i></a>
+                    <a href="mailto:parkhibhandula@gmail.com"><i class="fa-solid fa-square-envelope fa-2x"
+                            style="color: #55e6a5;"></i></a>
+                    <a href="https://www.linkedin.com/in/parkhi-bhandula-59642428b/"><i
+                            class="fa-brands fa-linkedin fa-2x" style="color: #55e6a5;"></i></a>
+                    <a href="https://github.com/parkhibhandula"><i class="fa-brands fa-github fa-2x"
+                            style="color: #55e6a5;"></i></a>
                 </div>
             </div>
-              <div class="col-lg-6" id="profilepic">
-                <img src="/parkhi.jpg" alt="profile picture" height="70%" width="400px" style="object-fit: cover;">
+            <div class="col-md-6" id="profilepic">
+                <img src="/images/profilepic.jpg" alt="profile picture" height="90%" width="90%"
+                    style="object-fit: cover; border-radius:50%; background:white;">
             </div>
         </div>
+    </div>
+
+    <!--Skills-->
+    <div id="skill-contain">
+        <div class="skills">
+            <h2>Skills</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="">HTML
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="">CSS</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+                                alt="">Javascript</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000"
+                                alt="">ReactJS</h4>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000"
+                                alt="">MongoDB</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=B4UIxQoMYIGD&format=png&color=000000"
+                                alt="">ExpressJS</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="">NodeJS
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000" alt="">Firebase
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
+                                alt="">Bootstrap</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="">Python
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="">Java
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000"
+                                alt="">SQL</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=52539&format=png&color=000000" alt="">Github
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill">
+                        <h4><img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" alt="">MS
+                            Excel</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About-->
+    <div class="aboutme" id="aboutme">
+        <div class="about">
+            <h2>About</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 style="color: #55e6a5;">Summary</h2>
+                    <h5>Enthusiastic <strong>Full Stack Developer</strong> skilled in <strong>JavaScript, React,
+                            Node.js,
+                            Express,</strong> and
+                        <strong>MongoDB</strong>. Proficient in designing scalable frontend and backend systems,
+                        integrating
+                        APIs, and managing databases.
+                        Strong understanding of cloud tools like <strong>Firebase</strong> and deployment platforms.
+                        Built
+                        multiple end-to-end projects
+                        demonstrating problem-solving and teamwork in national hackathons. Eager to contribute to
+                        impactful web
+                        solutions and grow in a dynamic development environment.
+                    </h5>
+                </div>
+                <div class="col-md-5">
+                    <h2 style="color: #55e6a5;">Education</h2>
+                    <h5>
+                        <ul>
+                            <li><strong>B.Tech in Computer Science & Engineering (Data Science)</strong> – ABES
+                                Institute of
+                                Technology, Ghaziabad (2022–2026)<br>
+                                Current CGPA: 8.52/10</li>
+                            <li><strong>Intermediate (2021–2022)</strong> – Leelawati Public School<br>
+                                Percentage: 88.8%</li>
+                            <li><strong>High School (2019–2020)</strong> – Leelawati Public School<br>
+                                Percentage: 84.6%</li>
+                        </ul>
+                    </h5>
+                    <h2 style="color: #55e6a5;">Experience</h2>
+                    <h5><strong>Web Development Intern</strong> @ CodeCraft Infotech<br>
+                        <em>July 2025 – August 2025</em><br>
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactme" id="contactme">
+            <div class="contact">
+                <h2>Contact</h2>
+            </div>
+            <h3>I'd love to hear from you! Let's work together</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="contactdetails">
+                        <h4>Location: Ghaziabad, Uttar Pradesh, India</h4>
+                        <h4>Contact: +91 9911087641</h4>
+                        <h4>Email: <a href="mailto:parkhibhandula@gmail.com">parkhibhandula@gmail.com</a></h4>
+                        <h4><i class="fa-brands fa-linkedin"></i> <a
+                                href="https://www.linkedin.com/in/parkhi-bhandula-59642428b/" target="_blank">
+                                LinkedIn</a></h4>
+                        <h4><i class="fa-brands fa-github"></i> <a href="https://github.com/parkhibhandula"
+                                target="_blank"> GitHub</a></h4>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                    <h3>💼 Let's collaborate on something amazing!</h3>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
 </body>
 
 </html>
